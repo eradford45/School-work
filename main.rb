@@ -2,7 +2,7 @@ require 'colorize'
 require 'pry'
 
 def puts_git (cmd)
-    binding.pry
+    
     puts `git #{cmd} -h`
 end
 
